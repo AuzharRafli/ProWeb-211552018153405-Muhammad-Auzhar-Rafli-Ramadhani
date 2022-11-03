@@ -1,0 +1,157 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-family: sans-serif;
+ }
+  
+ h2 {
+    color: #00a2c6;
+ }
+  
+ h3 {
+    color: #00a2c6;
+ }
+  
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+ }
+ h2, h3 {
+    color: #c60000
+ }
+
+ blockquote::before,
+blockquote::after {
+   content: '"';
+   font-size: 24px;
+   font-style: italic;
+   font-weight: bold;
+}
+body {
+    font-family: sans-serif;
+ }
+/* Rule tidak akan diterapkan pada target karena kesalahan penulisan nilai properti */
+h1 {
+    font-size: 1.5 em;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 150%; /* 150% dari 16 = 24px */
+  }
+  p {
+    font: 1em sans-serif;
+ }
+ p {
+    line-height: 2;
+ }
+ p {
+    line-height: 200%;
+ }
+ p {
+    line-height: 2em;
+ }
+ p#first {
+    text-indent: 2em;
+ }
+  
+ p#second {
+    text-indent: 25%;
+ }
+  
+ p#third {
+    text-indent: -35px;
+ }
+ p#first {
+    text-align: left;
+}
+ 
+p#second {
+    text-align: right;
+}
+ 
+p#third {
+    text-align: center;
+}
+ 
+p#fourth {
+    text-align: justify;
+}
+p#letter {
+    letter-spacing: 4px;
+ }
+ p#word {
+    word-spacing: 1.5em;
+ }
+ p#one {
+    text-shadow: 1px 1px 0px #000000;
+    background-color: #eeeeee;
+    color: #666666;
+ }
+  
+ p#two {
+    text-shadow: 1px 1px 3px #666666;
+    background-color: #dddddd;
+    color: #666666;
+ }
+  
+ p#three {
+    text-shadow: 2px 2px 7px #111111;
+    background-color: #cccccc;
+    color: #ffffff;
+ }
+  
+ p#four {
+    text-shadow: -1px -1px #666666;
+    background-color: #cccccc;
+    color: #bbbbbb;
+ }
+ @font-face {
+    font-family: "Dicoding Font";
+    src: url('FILE-FONT.TTF');
+ }
+ @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+ 
+ 
+body {
+   font-family: sans-serif;
+}
+ 
+ 
+h2, h3 {
+   color: #00a2c6
+}
+ 
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+ nav a:hover {
+    font-weight: bold;
+ }
+ .profile header {
+    text-align: center;
+ }
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
